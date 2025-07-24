@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Request Form</title>  
+    <link rel="icon" type="image/x-icon" href="C:\Users\davii\OneDrive\Desktop\images.jpg">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <!-- Work from Home Request Form -->
+    <h1 style="text-align: center;">Work from Home Request Form</h1>
+    
+    <div style="text-align: center;">
+        <img src="https://alexahire.in/wp-content/uploads/2024/07/Microsft-Work-From-Home.jpg" 
+             alt="MicrosoftLogo" height="250px" width="725px">
+    </div>
+
+    <form style="margin-left: 400px;">
+        <fieldset>
+            <legend style="font-size: larger;">Employee Details</legend>
+            
+            <label style="font-size: larger;">Enter your Name: </label>
+            <input type="text" id="name"><br><br>
+
+            <label style="font-size: larger;">Enter your Employee ID:</label>
+            <input type="text" id="ids"><br><br>
+
+            <label style="font-size: larger;">Contact Number:</label>
+            <input type="tel" id="tel"><br><br>
+
+            <label style="font-size: larger;">Search Project: </label>
+            <input type="search" id="search"><br><br>
+
+            <label style="font-size: larger;">Enter your Work Alotted No: </label>
+            <input type="number" id="no"><br><br>
+
+            <label for="e1" style="font-size: larger;">Enter your work email id: </label>
+            <input type="email" id="em1" name="e1"><br><br>
+        </fieldset>
+
+        <fieldset>
+            <legend style="font-size: larger;">Work Details</legend>
+            
+            <label style="font-size: larger;">State your Reason:</label><br>
+            <input type="radio" id="a1" name="rad">
+            <label>Health Issues</label><br>
+            <input type="radio" id="a2" name="rad">
+            <label>OD</label><br>
+            <input type="radio" id="a3" name="rad">
+            <label>Permission</label><br>
+            <input type="radio" id="a4" name="rad">
+            <label>2 day Personal request</label><br><br>
+
+            <label style="font-size: larger;">Select your pending works: </label><br>
+            <input type="checkbox" id="c1" name="check">
+            <label>Front End</label><br>
+            <input type="checkbox" id="c2" name="check">
+            <label>Back End</label><br>
+            <input type="checkbox" id="c3" name="check">
+            <label>Database</label><br>
+            <input type="checkbox" id="c4" name="check">
+            <label>Testing</label><br><br>
+
+            <label style="font-size: larger;" for="p1">Enter your work password:</label>
+            <input type="password" id="pswd" name="p1"><br><br>
+
+            <label style="font-size: larger;">Attach proof</label><br>
+            <input type="file" id="files" name="f1"><br><br>
+
+            <label style="font-size: larger;">Enter Description</label><br>
+            <textarea name="text" rows="10" cols="50" id="d1">
+            Employee ID:
+            Reason:
+            </textarea><br><br>
+
+            <label style="font-size: larger;" for="date">Last date of Offline work:</label>
+            <input type="date" id="date" name="date1"><br><br>
+
+            <label style="font-size: larger;" for="tim">Preferred Work time:</label>
+            <input type="time" id="tim" name="time1"><br><br>
+
+            <label style="font-size: larger;" for="ur">Enter your Completed website url:</label>
+            <input type="url" id="ur"><br><br>
+
+            <label style="font-size: larger;">Select Department:</label>
+            <select name="department">
+                <option value="frontend">Front End</option>
+                <option value="backend">Back End</option>
+                <option value="database">Database</option>
+                <option value="testing">Testing</option>
+            </select><br><br>
+
+            <label style="font-size: larger;">Progress of Work:</label>
+            <progress value="50" max="100"></progress><br><br>
+        </fieldset>
+
+        <input type="submit" value="Submit form" style="margin-left: 100px;">
+        <input type="reset" value="Reset form">
+    </form>
+</body>
+</html>
